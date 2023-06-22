@@ -1,0 +1,109 @@
+*{
+  background-color: #040040;
+}
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  gap: 40px;
+  flex-direction: column;
+  margin: 3% 0px;
+ 
+}
+
+.sear{
+  display: flex;
+}
+
+input{
+  border: none;
+  height: 6vh;
+  width: 40vw;
+  font-size: 22px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #fff;
+  box-shadow: none;
+  padding-left: 20px;
+}
+
+.sebtn{
+  width: 90px;
+  height: 6.3vh;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background: orange;
+  cursor: pointer;
+}
+.sebtn:hover{
+  background-color: rgb(181, 205, 0);
+}
+
+.conta{
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6%;
+}
+
+
+.space{
+  width: 20%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+img{
+  width: 14vw;
+  height: 22vw;
+  object-fit: cover;
+}
+
+
+p{
+  color: white;
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 20%;
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 5px;
+  }
+}
+
+.pages{
+  color: black;
+  background-color: orange;
+  margin: 5px 4px;
+  width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  border: none;
+}
+.pages:hover{
+  background-color: #e500af;
+  color: #fff;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .pages {
+    width: 30px;
+    height: 20px;
+    font-size: 11px;
+  }
+}
+
+
+.Error{
+  color: #fff;
+}
